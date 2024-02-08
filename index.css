@@ -204,7 +204,7 @@ footer{
 
 /* TRAIT SOUS LE TITRE  */
 #TextePartezEnFamille > h3{
-	border-bottom: 2px solid #black;
+	border-bottom: 2px solid black;
 	padding-bottom: 10px;
 	margin: 0;
 }
@@ -236,7 +236,7 @@ footer{
 }
 
 #TexteEnvieDeSEvader > h3{
-	border-bottom: 2px solid #black;
+	border-bottom: 2px solid black;
 	padding-bottom: 10px;
 	margin: 0;
 }
