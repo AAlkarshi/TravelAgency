@@ -1,0 +1,288 @@
+footer{
+	background-color: grey;
+}
+
+#TitreFormulaire{
+	font-family: Arial;
+	font-size: 30px;
+}
+
+#OngletHaut{
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#Onglet{
+	display: inline-flex;	
+}
+
+
+/* Onglet Ecriture */
+#Onglet p{
+	font-size: 20px;
+	margin-left: 10px;	
+}
+
+
+/* Onglet */
+#Onglet p a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Onglet Survol */
+#Onglet p a:hover{
+	color: orange;
+}
+
+
+
+
+#Point{
+	color: orange;
+}
+
+
+
+#IMAGE{
+	position: relative;
+}
+
+
+#PhraseAccroche{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 25px;
+	margin: 0;
+	font-family: system-ui;
+	text-align: center;
+}
+
+
+#BtnAccueil{
+	background-color: orange;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 17px;
+	border-color: orange;
+	border-radius: 5px;
+}
+
+
+#BtnAccueil p{
+	color: white;
+}
+
+
+.ICON{
+	position: absolute;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 20%;
+}
+
+#ICONE div img{
+	position: relative;
+	text-align: center;
+	align-items: center;
+}
+
+
+#ICONE > div:nth-child(1) > p.TEXTE_ICONE{
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+
+#ICONE > div:nth-child(2) > p.TEXTE_ICONE{
+	margin-right: 15px;
+}
+
+#ICONE > div:nth-child(3) > p.TEXTE_ICONE{
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+
+
+/* TT les ICONES */
+#ICONE{
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* ENSEMBLE DES ICONES */
+#ICONE div{
+	justify-content: space-between;
+}
+
+
+/* TEXTES SOUS LES TITRE ET ICONES*/
+#ICONE div p{
+	text-align: center;
+	font-family: italic;
+}
+
+
+/* TITRES SOUS LES ICONES*/
+.TITRE_ICONE{
+	font-size: 25px;
+	font-family: bolder;
+	margin: 0;
+}
+
+#ICONE > div > p.TITRE_ICONE{
+	margin-top: 10px;
+}
+
+/* TEXTE SOUS LES TITRES ICONES*/
+.TEXTE_ICONE{
+	font-size: 25px;
+	font-family: bolder;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION CSS */
+
+#SectionGrisé{
+	width: 100%;
+	background-color: #efefef;
+	padding: 50px 0px 50px 0px;
+}
+
+
+#RegroupementSection{
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+#RegroupementSection article{
+	width: 50%;
+	height: 270px;
+	float: left;
+	border-radius: 10px;
+}
+
+
+
+
+/* 1er Article */
+#SectionPartezEnFamille{
+	margin-left: 100px;
+	margin-right: 100px;
+	background-image: url("article-image-1.jpg");
+	background-repeat: no-repeat;
+}
+
+
+/* TRAIT SOUS LE TITRE  */
+#TextePartezEnFamille > h3{
+	border-bottom: 2px solid #black;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+
+#TextePartezEnFamille{
+	background: rgba(255,255,255,0.95);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	font-family: Didot, serif;
+}
+
+
+#TexteEnvieDeSEvader{
+	background: rgba(255,255,255,0.95);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	font-family: Didot, serif;
+}
+
+
+/* 2Eme Article */
+#SectionEnvieDeEvader{
+	background-image: url("article-image-2.jpg");
+	background-repeat: no-repeat;
+	width: 50%;
+}
+
+#TexteEnvieDeSEvader > h3{
+	border-bottom: 2px solid #black;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+
+
+.BtnInfos{
+	width: 50%;
+	justify-content: center;
+	padding: 0;
+	border: 0;
+	color: white;
+	font-size: 20px;
+	border-color: orange;
+	background-color: orange;
+	font-family: Didot, serif;
+	border-radius: 5px;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	background-color: #444;
+	height: 200px; 
+}
+
+#TexteFooter{
+	color: white;
+	font-family: Arial;
+	font-size: 55px;
+	height: 200px;
+	align-items: center;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+
+#CopyrightFooter{
+	background-color: #444;
+	color: white;
+	font-family: Arial;
+	align-items: center;
+	text-align: center;
+}
